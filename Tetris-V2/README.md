@@ -39,16 +39,19 @@ This is the **enhanced version** of the Tetris game used in the DevSecOps Kubern
 ### Installation
 
 1. **Navigate to the project directory:**
+
    ```bash
    cd Tetris-V2
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server:**
+
    ```bash
    npm start
    ```
@@ -61,6 +64,7 @@ This is the **enhanced version** of the Tetris game used in the DevSecOps Kubern
 ## 📦 Available Scripts
 
 | Command | Description |
+
 |---------|-------------|
 | `npm start` | Runs the app in development mode |
 | `npm run build` | Builds the app for production |
@@ -90,6 +94,7 @@ docker run -p 3000:3000 tetrisv2
 ### Dockerfile Overview
 
 The Dockerfile uses a multi-stage approach:
+
 - Base image: `node:16`
 - Working directory: `/app`
 - Exposed port: `3000`
@@ -100,7 +105,7 @@ The Dockerfile uses a multi-stage approach:
 
 ## 🏗️ Project Structure
 
-```
+```folder
 Tetris-V2/
 ├── .github/             # GitHub workflows and configurations
 ├── assets/              # Images and visual assets
@@ -131,6 +136,7 @@ Tetris-V2/
 ### Desktop
 
 | Key | Action |
+
 |-----|--------|
 | ← | Move left |
 | → | Move right |
@@ -142,6 +148,7 @@ Tetris-V2/
 ### Mobile
 
 | Gesture | Action |
+
 |---------|--------|
 | Swipe Left | Move left |
 | Swipe Right | Move right |
@@ -167,7 +174,9 @@ Tetris-V2/
 ## 🔧 Dependencies
 
 ### Core Dependencies
+
 | Package | Version | Description |
+
 |---------|---------|-------------|
 | react | 16.12.0 | React core library |
 | react-dom | 16.12.0 | React DOM renderer |
@@ -183,10 +192,11 @@ Tetris-V2/
 | color | 3.1.2 | Color manipulation |
 
 ### Dev Dependencies
-| Package | Version | Description |
-|---------|---------|-------------|
-| gh-pages | 2.2.0 | GitHub Pages deployment |
-| typescript | 3.3.3 | TypeScript support |
+
+| Package    | Version | Description             |
+|------------|---------|-------------------------|
+| gh-pages   | 2.2.0   | GitHub Pages deployment |
+| typescript | 3.3.3   | TypeScript support      |
 
 ---
 
@@ -235,6 +245,7 @@ npm run deploy
 ## 🆚 V1 vs V2 Comparison
 
 | Feature | V1 | V2 |
+
 |---------|----|----|
 | Responsive Design | ❌ | ✅ |
 | Mobile Support | ❌ | ✅ |

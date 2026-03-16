@@ -28,7 +28,7 @@ This is a comprehensive **DevSecOps learning project** that demonstrates how to 
 
 ## 🏗️ Architecture
 
-```
+```diagram
 ┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
 │   Developer     │────▶│   Jenkins CI/CD  │────▶│   Docker Hub    │
 │   (Git Push)    │     │   Pipelines      │     │   (Registry)    │
@@ -51,7 +51,7 @@ This is a comprehensive **DevSecOps learning project** that demonstrates how to 
 
 ## 📁 Project Structure
 
-```
+```folder
 Tetris-game/
 ├── EKS-TF/                     # Terraform scripts for EKS cluster deployment
 │   ├── backend.tf             # S3 backend configuration
@@ -112,6 +112,7 @@ Tetris-game/
 ## 🛠️ Tools & Technologies
 
 | Category | Tools |
+
 |----------|-------|
 | **Cloud Platform** | AWS (EC2, EKS, IAM, VPC, S3) |
 | **Infrastructure as Code** | Terraform |
@@ -137,8 +138,8 @@ Tetris-game/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/AmanPathak-DevOps/End-to-End-Kubernetes-DevSecOps-Tetris-Project.git
-cd End-to-End-Kubernetes-DevSecOps-Tetris-Project
+git clone https://github.com/x0lg0n/Tetris-game.git
+cd Tetris-game
 ```
 
 ### Step 2: Deploy Jenkins Server
@@ -173,6 +174,7 @@ terraform apply -var-file=variables.tfvars
 ### Step 5: Deploy the Application
 
 Run the Jenkins pipelines in order:
+
 1. **EKS-Terraform Pipeline** - Provisions infrastructure
 2. **TetrisV1/V2 Pipeline** - Builds, scans, and deploys the application
 
@@ -219,6 +221,7 @@ Run the Jenkins pipelines in order:
 For a complete step-by-step implementation guide, refer to the [blog post](https://amanpathakdevops.medium.com/devsecops-mastery-a-step-by-step-guide-to-deploying-tetris-on-aws-eks-with-jenkins-and-argocd-3adcf21b3120).
 
 Additional documentation:
+
 - [Process.md](Process.md) - Implementation process and milestones
 - [Tetris-V1/README.md](Tetris-V1/README.md) - Tetris V1 specific documentation
 - [Tetris-V2/README.md](Tetris-V2/README.md) - Tetris V2 specific documentation
@@ -271,9 +274,9 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## 📬 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amanpathak-devops/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmanPathak-DevOps)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://amanpathakdevops.medium.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siddhartha-kunwar/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/x0lg0n)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@siddharthakunwar)
 
 ---
 
